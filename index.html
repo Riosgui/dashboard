@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <samp class="tittle">Undefined Name</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <samp class="tittle">Dashboard</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-child"></i></span>
+                        <samp class="tittle">Customers</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-comments"></i></span>
+                        <samp class="tittle">Message</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="far fa-question-circle"></i></span>
+                        <samp class="tittle">Help</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-cog"></i></span>
+                        <samp class="tittle">Settings</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-lock"></i></span>
+                        <samp class="tittle">Password</samp>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-power-off"></i></span>
+                        <samp class="tittle">Sign Out</samp>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                
+                <!-- Search -->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search Here">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+
+
+                <!-- userImg -->
+                <div class="user">
+                    <img src="resources/img/avatar/default-avatar-1.png" alt="">
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Sales</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">248</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">$7,842</div>
+                        <div class="cardName">Earning</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <!-- order details list-->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Item 1</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Item 2</td>
+                                <td>$800</td>
+                                <td>Paid</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Item 3</td>
+                                <td>$1800</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Item 1</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Item 2</td>
+                                <td>$800</td>
+                                <td>Paid</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Item 3</td>
+                                <td>$1800</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- New Customers -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="resources/img/avatar/default-image-620x600.jpg" alt=""></div></td>
+                            <td><h4>First Name</h4><span>Last Name</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //Menu Toggle
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+
+        toggle.onclick = function(){
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+
+
+        //Add Class Hovered 
+        let list = document.querySelectorAll('.navigation li');
+        function activeLink(){
+            list.forEach((item) => item.classList.remove('hovered'));
+            this.classList.add('hovered')
+        }
+        list.forEach((item) => item.addEventListener('mouseover', activeLink));
+    </script>
+</body>
+</html>
